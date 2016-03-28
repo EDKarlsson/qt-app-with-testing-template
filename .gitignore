@@ -3,3 +3,9 @@ build-*
 *.o
 *.moc
 *pro.user
+src/*.dylib
+Makefile
+.qmake.stash
+src/Makefile
+test/Makefile
+app/Makefile
