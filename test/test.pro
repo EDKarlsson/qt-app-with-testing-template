@@ -12,6 +12,6 @@ CONFIG += app_bundle
 INCLUDEPATH += .
 
 # Input
-SOURCES += test_database.cpp
+#SOURCES += test_database.cpp
 
 LIBS += -L../src -lqt-app-with-testing-template

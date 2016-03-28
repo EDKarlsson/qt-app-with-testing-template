@@ -1,20 +1,22 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2016-03-28T11:12:20
+# Project created by QtCreator 2016-02-10T15:54:59
 #
 #-------------------------------------------------
 
-QT       += core gui
+TEMPLATE = subdirs
+CONFIG += ordered
+SUBDIRS = \
+        src \
+#        src/include \
+        app \
+        test
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
-TARGET = qt-application-testing-template
-TEMPLATE = app
+app.depends = src
+test.depends = src
 
 
-SOURCES += src/source/main.cpp\
-        src/source/mainwindow.cpp
 
-HEADERS  += src/header/mainwindow.h
 
-FORMS    += src/form/mainwindow.ui
+#DISTFILES += \
+#    defaults.pri

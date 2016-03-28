@@ -11,13 +11,8 @@ unix {
 CONFIG -= testlib
 TEMPLATE = lib
 
-SOURCES += mainwindow.cpp \
-
-HEADERS  += include/mainwindow.h \
-
+SOURCES += source/mainwindow.cpp \
+HEADERS  += header/mainwindow.h \
 FORMS    += form/mainwindow.ui \
 
 QTPLUGIN += qsqlmysql
-
-#DISTFILES += \
-#    ../app/stylesheet-example.qss

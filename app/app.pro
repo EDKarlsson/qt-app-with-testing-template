@@ -8,7 +8,7 @@ TEMPLATE = app
 CONFIG += console
 CONFIG -= app_bundle
 
-SOURCES += main.cpp
+SOURCES += source/main.cpp
 
 LIBS += -L../qt-app-with-testing-template
 
