@@ -8,4 +8,4 @@ CONFIG +=console
 CONFIG += app_bundle
 INCLUDEPATH += .
 
-LIBS += -L../src/source -lqt-app-with-testing-template
+LIBS += -L../src -lqt-app-with-testing-template
