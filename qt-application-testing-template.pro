@@ -13,9 +13,3 @@ SUBDIRS = \
 
 app.depends = src
 test.depends = src
-
-
-
-
-#DISTFILES += \
-#    defaults.pri
