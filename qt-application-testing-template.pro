@@ -7,8 +7,7 @@
 TEMPLATE = subdirs
 CONFIG += ordered
 SUBDIRS = \
-        src \
-#        src/include \
+        src\
         app \
         test
 

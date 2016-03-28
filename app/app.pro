@@ -10,7 +10,7 @@ CONFIG -= app_bundle
 
 SOURCES += source/main.cpp
 
-LIBS += -L../qt-app-with-testing-template
+LIBS += -L../../qt-app-with-testing-template
 
 #RESOURCES += \
 #    stylesheet.qrc
