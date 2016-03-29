@@ -8,11 +8,11 @@ branches:
   - testing
 
 before_install:
-  - sudo apt-add-repository ppa:beineri/opt-qt55 -y
+  - sudo apt-add-repository ppa:beineri/opt-qt551 -y
   - sudo apt-get update -q
-  - sudo apt-get install qt55-meta libgtest-dev
+  - sudo apt-get install qt551-meta libgtest-dev
 
 script:
-  - source /opt/qt55/bin/qt55-env.sh
+  - source /opt/qt551/bin/qt551-env.sh
   - qmake
   - make
