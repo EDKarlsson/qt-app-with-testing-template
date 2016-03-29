@@ -3,10 +3,10 @@ QT       += core gui sql
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 win32 {
-  TARGET = ../qt-application-testing-template
+  TARGET = ../$APP_NAME
 }
 unix {
-  TARGET = qt-application-testing-template
+  TARGET = $APP_NAME
 }
 CONFIG -= testlib
 TEMPLATE = lib

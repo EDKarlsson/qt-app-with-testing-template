@@ -10,4 +10,4 @@ CONFIG -= app_bundle
 
 SOURCES += source/main.cpp
 
-LIBS += -L../src -lqt-application-testing-template
+LIBS += -L../src -l$APP_NAME

@@ -13,7 +13,10 @@ When you `git clone` the repository, make sure to rename the repo it is going in
 
     git clone https://github.com/EDKarlsson/qt-app-with-testing-template/ ${name-of-my-app}
 
-Make sure to go through all the `.pro` files to replace the name `qt-application-testing-template` (or anything similar) with the name that you used for `${name-of-my-app}`
+In the `defaults.pri` change the Qt environment variable APP_NAME to the name of the application you are making.
+
+If it is failing on compile:
+> Make sure to go through all the `.pro` files to replace the name `qt-application-testing-template` (or anything similar) with the name that you used for `${name-of-my-app}`
 
 ### TravisCI
 Within the TravisCI file, you can remove all the different versions of Qt you don't want TravisCI to compile for.
