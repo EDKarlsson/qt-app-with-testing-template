@@ -18,7 +18,7 @@ Make sure to go through all the `.pro` files to replace the name `qt-application
 ### TravisCI
 Within the TravisCI file, you can remove all the different versions of Qt you don't want TravisCI to compile for.
 
-For example to remove 51 (Which i, remove:
+For example to remove 51, remove:
 ```yml
 - QT_BASE=51
 ...
