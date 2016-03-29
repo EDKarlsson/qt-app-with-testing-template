@@ -1,5 +1,7 @@
 Qt Desktop Template with Testing
 --------
+[![Build Status](https://travis-ci.org/EDKarlsson/qt-app-with-testing-template.svg?branch=master)](https://travis-ci.org/EDKarlsson/qt-app-with-testing-template)
+
 
 A Qt Desktop Application template which allows for the developer to utilize the Qt testing features.
 
