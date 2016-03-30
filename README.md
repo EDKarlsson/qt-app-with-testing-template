@@ -14,6 +14,7 @@ When you `git clone` the repository, make sure to rename the repo it is going in
     git clone https://github.com/EDKarlsson/qt-app-with-testing-template/ ${name-of-my-app}
 
 In the `defaults.pri` change the Qt environment variable APP_NAME to the name of the application you are making.
+> This currently does not seem to work properly in Qt, so you will need to go through all the `.pro` files and change it.
 
 If it is failing on compile:
 > Make sure to go through all the `.pro` files to replace the name `qt-application-testing-template` (or anything similar) with the name that you used for `${name-of-my-app}`
