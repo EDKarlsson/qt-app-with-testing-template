@@ -5,12 +5,21 @@ TEMPLATE = app
 #	QT += core testlib sql gui
 QT += core testlib sql gui
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-TARGET = test
-CONFIG +=console
+
+TARGET  = test
+CONFIG += console
 CONFIG += app_bundle
+CONFIG += c++11
+
+#input
+SOURCES += \
+    main.cpp
+
 INCLUDEPATH += .
 
 LIBS += -L../src -l$${APP_NAME}
 
-SOURCES += \
-    test_main.cpp
+HEADERS += \
+    testrunner.h \
+    SkipListTests.h
+
